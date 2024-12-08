@@ -13,40 +13,44 @@ This repository contains a Telegram bot for tracking cryptocurrency prices and s
 ## Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/crypto-price-alert-bot.git
-    cd crypto-price-alert-bot
-    ```
+
+   ```bash
+   git clone https://github.com/paragrudani1/telegram-crypto-alert-bot.git
+   cd telegram-crypto-alert-bot
+   ```
 
 2. Create and activate a virtual environment (optional but recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
 3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Create a `.env` file in the root directory and add your Telegram bot token:
-    ```env
-    TELEGRAM_API_TOKEN=your_telegram_bot_token
-    ```
+   ```env
+   TELEGRAM_API_TOKEN=your_telegram_bot_token
+   ```
 
 ## Usage
 
 1. Run the bot:
-    ```bash
-    python price_alert_bot.py
-    ```
+
+   ```bash
+   python price_alert_bot.py
+   ```
 
 2. Interact with the bot on Telegram using the following commands:
-    - `/start`: Start the bot and get a welcome message.
-    - `/price <crypto> <currency>`: Get the current price of the specified cryptocurrency.
-    - `/alert <crypto> <condition> <target_price> <currency>`: Set up a price alert.
-    - `/alerts`: View active price alerts.
-    - `/del <alert_id>`: Delete a specific price alert.
+   - `/start`: Start the bot and get a welcome message.
+   - `/price <crypto> <currency>`: Get the current price of the specified cryptocurrency.
+   - `/alert <crypto> <condition> <target_price> <currency>`: Set up a price alert.
+   - `/alerts`: View active price alerts.
+   - `/del <alert_id>`: Delete a specific price alert.
 
 ## Example Commands
 
